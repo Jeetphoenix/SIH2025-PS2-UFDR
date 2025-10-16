@@ -1,0 +1,9 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Simple utility */
+.card {
+  @apply bg-gray-800 border border-gray-700 rounded-lg p-4;
+}
